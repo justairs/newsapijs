@@ -1,10 +1,10 @@
 {
   "name": "newsapiquery",
   "version": "0.0.1",
-  "description": "using node js to query data in the newsap",
+  "description": "using node js to query data in the newsapi, which can be found at https://newsapi.org/",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/justairs/newsapijs/issues"
   },
-  "homepage": "https://github.com/justairs/newsapijs#readme"
+  "homepage": "https://github.com/justairs/newsapijs#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "newsapi": "^2.4.0"
+  }
 }
