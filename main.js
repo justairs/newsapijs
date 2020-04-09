@@ -4,7 +4,7 @@ const Argument = "top-headlines?";
 const country = "pt";
  axios.get(`https://newsapi.org/v2/${Argument}country=${country}&apiKey=${ApiKey}`).then(resp => {
     let obj = resp.data.articles;
-    console.log(obj[1]);
+    console.log(obj);
         
         
 });
